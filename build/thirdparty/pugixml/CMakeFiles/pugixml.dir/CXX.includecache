@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/khaled/ND-project1-C++/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugiconfig.hpp
+/home/khaled/CPP-ND-project1/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugiconfig.hpp
 
-/home/khaled/ND-project1-C++/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.cpp
+/home/khaled/CPP-ND-project1/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.cpp
 pugixml.hpp
-/home/khaled/ND-project1-C++/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.hpp
+/home/khaled/CPP-ND-project1/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.hpp
 stdlib.h
 -
 stdio.h
@@ -38,9 +38,9 @@ new
 stdint.h
 -
 
-/home/khaled/ND-project1-C++/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.hpp
+/home/khaled/CPP-ND-project1/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.hpp
 pugiconfig.hpp
-/home/khaled/ND-project1-C++/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugiconfig.hpp
+/home/khaled/CPP-ND-project1/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugiconfig.hpp
 stddef.h
 -
 exception

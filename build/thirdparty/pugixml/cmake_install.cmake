@@ -1,4 +1,4 @@
-# Install script for directory: /home/khaled/ND-project1-C++/CppND-Route-Planning-Project/thirdparty/pugixml
+# Install script for directory: /home/khaled/CPP-ND-project1/CppND-Route-Planning-Project/thirdparty/pugixml
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,13 +43,13 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/khaled/ND-project1-C++/CppND-Route-Planning-Project/lib/libpugixml.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/khaled/CPP-ND-project1/CppND-Route-Planning-Project/lib/libpugixml.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "/home/khaled/ND-project1-C++/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.hpp"
-    "/home/khaled/ND-project1-C++/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugiconfig.hpp"
+    "/home/khaled/CPP-ND-project1/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.hpp"
+    "/home/khaled/CPP-ND-project1/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugiconfig.hpp"
     )
 endif()
 
@@ -57,7 +57,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/pugixml/pugixml-config.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/pugixml/pugixml-config.cmake"
-         "/home/khaled/ND-project1-C++/CppND-Route-Planning-Project/build/thirdparty/pugixml/CMakeFiles/Export/lib/cmake/pugixml/pugixml-config.cmake")
+         "/home/khaled/CPP-ND-project1/CppND-Route-Planning-Project/build/thirdparty/pugixml/CMakeFiles/Export/lib/cmake/pugixml/pugixml-config.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/pugixml/pugixml-config-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -66,9 +66,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/pugixml" TYPE FILE FILES "/home/khaled/ND-project1-C++/CppND-Route-Planning-Project/build/thirdparty/pugixml/CMakeFiles/Export/lib/cmake/pugixml/pugixml-config.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/pugixml" TYPE FILE FILES "/home/khaled/CPP-ND-project1/CppND-Route-Planning-Project/build/thirdparty/pugixml/CMakeFiles/Export/lib/cmake/pugixml/pugixml-config.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/pugixml" TYPE FILE FILES "/home/khaled/ND-project1-C++/CppND-Route-Planning-Project/build/thirdparty/pugixml/CMakeFiles/Export/lib/cmake/pugixml/pugixml-config-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/pugixml" TYPE FILE FILES "/home/khaled/CPP-ND-project1/CppND-Route-Planning-Project/build/thirdparty/pugixml/CMakeFiles/Export/lib/cmake/pugixml/pugixml-config-noconfig.cmake")
   endif()
 endif()
 
@@ -81,6 +81,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/lib/pkgconfig" TYPE FILE FILES "/home/khaled/ND-project1-C++/CppND-Route-Planning-Project/build/thirdparty/pugixml/pugixml.pc")
+file(INSTALL DESTINATION "/usr/local/lib/pkgconfig" TYPE FILE FILES "/home/khaled/CPP-ND-project1/CppND-Route-Planning-Project/build/thirdparty/pugixml/pugixml.pc")
 endif()
 

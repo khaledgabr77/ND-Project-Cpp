@@ -68,10 +68,10 @@ RM = /opt/cmake-3.18.0-rc1-Linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/khaled/ND-project1-C++/CppND-Route-Planning-Project
+CMAKE_SOURCE_DIR = /home/khaled/CPP-ND-project1/CppND-Route-Planning-Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/khaled/ND-project1-C++/CppND-Route-Planning-Project/build
+CMAKE_BINARY_DIR = /home/khaled/CPP-ND-project1/CppND-Route-Planning-Project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -146,14 +146,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/khaled/ND-project1-C++/CppND-Route-Planning-Project/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/ND-project1-C++/CppND-Route-Planning-Project/build/CMakeFiles /home/khaled/ND-project1-C++/CppND-Route-Planning-Project/build/thirdparty/pugixml//CMakeFiles/progress.marks
-	cd /home/khaled/ND-project1-C++/CppND-Route-Planning-Project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 thirdparty/pugixml/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/ND-project1-C++/CppND-Route-Planning-Project/build/CMakeFiles 0
+	cd /home/khaled/CPP-ND-project1/CppND-Route-Planning-Project/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/CPP-ND-project1/CppND-Route-Planning-Project/build/CMakeFiles /home/khaled/CPP-ND-project1/CppND-Route-Planning-Project/build/thirdparty/pugixml//CMakeFiles/progress.marks
+	cd /home/khaled/CPP-ND-project1/CppND-Route-Planning-Project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 thirdparty/pugixml/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled/CPP-ND-project1/CppND-Route-Planning-Project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/khaled/ND-project1-C++/CppND-Route-Planning-Project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 thirdparty/pugixml/clean
+	cd /home/khaled/CPP-ND-project1/CppND-Route-Planning-Project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 thirdparty/pugixml/clean
 .PHONY : clean
 
 # The main clean target
@@ -163,22 +163,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/khaled/ND-project1-C++/CppND-Route-Planning-Project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 thirdparty/pugixml/preinstall
+	cd /home/khaled/CPP-ND-project1/CppND-Route-Planning-Project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 thirdparty/pugixml/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/khaled/ND-project1-C++/CppND-Route-Planning-Project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 thirdparty/pugixml/preinstall
+	cd /home/khaled/CPP-ND-project1/CppND-Route-Planning-Project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 thirdparty/pugixml/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/khaled/ND-project1-C++/CppND-Route-Planning-Project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/khaled/CPP-ND-project1/CppND-Route-Planning-Project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 thirdparty/pugixml/CMakeFiles/pugixml.dir/rule:
-	cd /home/khaled/ND-project1-C++/CppND-Route-Planning-Project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 thirdparty/pugixml/CMakeFiles/pugixml.dir/rule
+	cd /home/khaled/CPP-ND-project1/CppND-Route-Planning-Project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 thirdparty/pugixml/CMakeFiles/pugixml.dir/rule
 .PHONY : thirdparty/pugixml/CMakeFiles/pugixml.dir/rule
 
 # Convenience name for target.
@@ -188,7 +188,7 @@ pugixml: thirdparty/pugixml/CMakeFiles/pugixml.dir/rule
 
 # fast build rule for target.
 pugixml/fast:
-	cd /home/khaled/ND-project1-C++/CppND-Route-Planning-Project/build && $(MAKE) $(MAKESILENT) -f thirdparty/pugixml/CMakeFiles/pugixml.dir/build.make thirdparty/pugixml/CMakeFiles/pugixml.dir/build
+	cd /home/khaled/CPP-ND-project1/CppND-Route-Planning-Project/build && $(MAKE) $(MAKESILENT) -f thirdparty/pugixml/CMakeFiles/pugixml.dir/build.make thirdparty/pugixml/CMakeFiles/pugixml.dir/build
 .PHONY : pugixml/fast
 
 src/pugixml.o: src/pugixml.cpp.o
@@ -197,7 +197,7 @@ src/pugixml.o: src/pugixml.cpp.o
 
 # target to build an object file
 src/pugixml.cpp.o:
-	cd /home/khaled/ND-project1-C++/CppND-Route-Planning-Project/build && $(MAKE) $(MAKESILENT) -f thirdparty/pugixml/CMakeFiles/pugixml.dir/build.make thirdparty/pugixml/CMakeFiles/pugixml.dir/src/pugixml.cpp.o
+	cd /home/khaled/CPP-ND-project1/CppND-Route-Planning-Project/build && $(MAKE) $(MAKESILENT) -f thirdparty/pugixml/CMakeFiles/pugixml.dir/build.make thirdparty/pugixml/CMakeFiles/pugixml.dir/src/pugixml.cpp.o
 .PHONY : src/pugixml.cpp.o
 
 src/pugixml.i: src/pugixml.cpp.i
@@ -206,7 +206,7 @@ src/pugixml.i: src/pugixml.cpp.i
 
 # target to preprocess a source file
 src/pugixml.cpp.i:
-	cd /home/khaled/ND-project1-C++/CppND-Route-Planning-Project/build && $(MAKE) $(MAKESILENT) -f thirdparty/pugixml/CMakeFiles/pugixml.dir/build.make thirdparty/pugixml/CMakeFiles/pugixml.dir/src/pugixml.cpp.i
+	cd /home/khaled/CPP-ND-project1/CppND-Route-Planning-Project/build && $(MAKE) $(MAKESILENT) -f thirdparty/pugixml/CMakeFiles/pugixml.dir/build.make thirdparty/pugixml/CMakeFiles/pugixml.dir/src/pugixml.cpp.i
 .PHONY : src/pugixml.cpp.i
 
 src/pugixml.s: src/pugixml.cpp.s
@@ -215,7 +215,7 @@ src/pugixml.s: src/pugixml.cpp.s
 
 # target to generate assembly for a file
 src/pugixml.cpp.s:
-	cd /home/khaled/ND-project1-C++/CppND-Route-Planning-Project/build && $(MAKE) $(MAKESILENT) -f thirdparty/pugixml/CMakeFiles/pugixml.dir/build.make thirdparty/pugixml/CMakeFiles/pugixml.dir/src/pugixml.cpp.s
+	cd /home/khaled/CPP-ND-project1/CppND-Route-Planning-Project/build && $(MAKE) $(MAKESILENT) -f thirdparty/pugixml/CMakeFiles/pugixml.dir/build.make thirdparty/pugixml/CMakeFiles/pugixml.dir/src/pugixml.cpp.s
 .PHONY : src/pugixml.cpp.s
 
 # Help Target
@@ -245,6 +245,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/khaled/ND-project1-C++/CppND-Route-Planning-Project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/khaled/CPP-ND-project1/CppND-Route-Planning-Project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

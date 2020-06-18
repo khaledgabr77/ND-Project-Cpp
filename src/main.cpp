@@ -54,6 +54,7 @@ int main(int argc, const char **argv)
     
     // TODO 1: Declare floats `start_x`, `start_y`, `end_x`, and `end_y` and get
     float start_x, start_y, end_x, end_y;
+
     // user input for these values using std::cin. Pass the user input to the
     std::cout << "Please Enter Your Coordinate : ";
     std::cout << "Start X : ";

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /home/khaled/ND-project1-C++/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include -isystem /home/khaled/ND-project1-C++/CppND-Route-Planning-Project/thirdparty/googletest/googletest
+CXX_INCLUDES = -isystem /home/khaled/CPP-ND-project1/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include -isystem /home/khaled/CPP-ND-project1/CppND-Route-Planning-Project/thirdparty/googletest/googletest
 
 CXX_FLAGS = -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11
 
